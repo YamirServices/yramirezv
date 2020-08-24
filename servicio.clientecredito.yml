@@ -12,4 +12,4 @@ eureka:
     health-check-url-path: /healthCatalogo
     metadata-map:
        app-owner: cedser
-       description: test application for the expert course
+       description: Texto para el curso de Expert.
