@@ -20,4 +20,4 @@ spring:
     username: root
     password: sodaazulado
   jpa:
-    generate-ddl: true    
+    generate-ddl: true
