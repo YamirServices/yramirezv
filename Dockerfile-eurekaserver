@@ -1,0 +1,6 @@
+FROM alpine-jdk:base
+LABEL maintainer="ramirez.yamir@gmail.com"
+COPY microeureka-0.0.1-SNAPSHOT.jar /opt/lib/eureka-server.jar
+ENTRYPOINT ["/usr/bin/java"]
+CMD ["-jar", "/opt/lib/eureka-server.jar"]
+EXPOSE 8761
